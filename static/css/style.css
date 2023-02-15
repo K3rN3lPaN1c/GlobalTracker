@@ -1,0 +1,44 @@
+/* Set global font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Dark theme */
+body {
+  background-color: #222;
+  color: #EEE;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #EEE;
+}
+
+header a {
+  color: #EEE;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #EEE;
+  text-align: center;
+}
